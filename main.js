@@ -30,3 +30,19 @@ function removeHighlight() {
     navItems[i].classList.remove('active')
   }
 }
+
+function addCollectionsHTML() {
+  mainContent.innerHTML = `<h2>Your collections can be found here!</h2>`
+}
+
+function addWishlistHTML() {
+  mainContent.innerHTML = `<h2>These are your wishlists!!</h2>`
+};
+
+function addArchivedHTML() {
+  mainContent.innerHTML = `<h2>Check out your archived stuff here!</h2>`
+}
+
+function addAllCoursesHTML() {
+  mainContent.innerHTML = `<h2>Here are all of your courses!</h2>`
+}
