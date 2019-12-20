@@ -24,3 +24,9 @@ function makeActive(event) {
       addAllCoursesHTML();
   }
 }
+
+function removeHighlight() {
+  for (var i = 0; i < navItems.length; i++) {
+    navItems[i].classList.remove('active')
+  }
+}
